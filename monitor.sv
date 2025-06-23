@@ -1,5 +1,5 @@
 // Monitor class for FIFO
-// It monitors the driver inputs, copies them and passes to scoreboard.
+// It monitors the driver inputs, copies them and displays them using virtual interface used between monitor and DUT
 class monitor;
 
   virtual fifo_if fif;     // Virtual interface to the FIFO
